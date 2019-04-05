@@ -1,0 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+
+body{
+	background: #ebeff2;
+	margin:20px 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.main h1{
+	font-size: 24px;
+}
+
+.main form{
+	width: 350px;
+	border:1px solid #c5d7d7;
+	min-height: 320px;
+	margin: 10px auto;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.25);
+	-moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.25);
+	box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.25);
+}
+
+.main form .fields{
+	background: #fefefe;
+	padding: 10px;
+	height: 250px;
+	border-bottom: 1px solid #dde0e7;
+}
+
+.main form .fields input{
+	font-size: 18px;
+	background: white;
+	border:1px solid #e0e4e5;
+	margin: 10px 0;
+	padding: 10px;
+}
+
+.main form .fields input:focus{
+	outline: none;
+}
+
+.main form .fields label{
+	line-height: 12px;
+}
+.main form .buttons{
+	background: #f1f6f9;
+	border-top: 1px solid white;
+}
+
+.main form .buttons button{
+	background: #bdc3c7;
+	border-radius: 5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	padding: 10px;
+	margin: 10px;
+}
+.main form .buttons button:hover{
+	background: #e67e22;
+	color: white;
+}
